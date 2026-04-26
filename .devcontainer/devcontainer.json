@@ -1,0 +1,13 @@
+{
+  "name": "Embedded Linux C++ Dev",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "postCreateCommand": "sudo apt update && sudo apt install -y build-essential cmake gdb",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-vscode.cpptools",
+        "ms-vscode.cmake-tools"
+      ]
+    }
+  }
+}
